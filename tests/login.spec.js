@@ -61,7 +61,7 @@ test.describe('Login tests', () => {
   });
 
 
-  test.only('Products Check', async ({ page }) => {
+  test('Products Check', async ({ page }) => {
     const loginPage = new LoginPage(page)
     const shopPage = new ShopPage(page)
     const cartPage = new CartPage(page)
